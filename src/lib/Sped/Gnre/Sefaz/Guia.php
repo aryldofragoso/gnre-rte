@@ -15,9 +15,9 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Sefaz;
+namespace TuimSped\Gnre\Sefaz;
 
-use Sped\Gnre\Exception\UndefinedProperty;
+use TuimSped\Gnre\Exception\UndefinedProperty;
 
 /**
  * Classe responsável por criar uma simples guia GNRE. Essa classe

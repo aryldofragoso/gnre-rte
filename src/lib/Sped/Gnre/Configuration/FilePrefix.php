@@ -15,7 +15,7 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Configuration;
+namespace TuimSped\Gnre\Configuration;
 
 /**
  * Classe que realiza a adição de prefixos no nome do arquivo desejado

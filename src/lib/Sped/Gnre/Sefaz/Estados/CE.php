@@ -1,6 +1,6 @@
 <?php
 
-namespace Sped\Gnre\Sefaz\Estados;
+namespace TuimSped\Gnre\Sefaz\Estados;
 
 class CE extends Padrao
 {

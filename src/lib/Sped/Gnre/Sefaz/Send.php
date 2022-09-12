@@ -15,12 +15,12 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Sefaz;
+namespace TuimSped\Gnre\Sefaz;
 
-use Sped\Gnre\Configuration\Setup;
-use Sped\Gnre\Exception\ConnectionFactoryUnavailable;
-use Sped\Gnre\Sefaz\ObjetoSefaz;
-use Sped\Gnre\Webservice\ConnectionFactory;
+use TuimSped\Gnre\Configuration\Setup;
+use TuimSped\Gnre\Exception\ConnectionFactoryUnavailable;
+use TuimSped\Gnre\Sefaz\ObjetoSefaz;
+use TuimSped\Gnre\Webservice\ConnectionFactory;
 
 /**
  * Classe que realiza o intermediário entre a transformação dos dados(objetos) e a conexão

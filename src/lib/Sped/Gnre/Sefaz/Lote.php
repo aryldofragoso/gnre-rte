@@ -15,10 +15,10 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Sefaz;
+namespace TuimSped\Gnre\Sefaz;
 
-use Sped\Gnre\Sefaz\LoteGnre;
-use Sped\Gnre\Sefaz\EstadoFactory;
+use TuimSped\Gnre\Sefaz\LoteGnre;
+use TuimSped\Gnre\Sefaz\EstadoFactory;
 
 /**
  * Classe que armazena uma ou mais Guias (\Sped\Gnre\Sefaz\Guia) para serem

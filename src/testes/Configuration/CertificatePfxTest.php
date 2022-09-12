@@ -15,12 +15,12 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Test\Configuration;
+namespace TuimSped\Gnre\Test\Configuration;
 
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers Sped\Gnre\Configuration\CertificatePfx
+ * @covers TuimSped\Gnre\Configuration\CertificatePfx
  */
 class TestCertificatePfx extends TestCase
 {

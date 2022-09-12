@@ -15,7 +15,7 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Render;
+namespace TuimSped\Gnre\Render;
 
 /**
  * Factory utilizada para criar um objeto <b>\Smarty</b> e definir

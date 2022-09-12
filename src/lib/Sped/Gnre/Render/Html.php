@@ -15,11 +15,11 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Render;
+namespace TuimSped\Gnre\Render;
 
-use Sped\Gnre\Sefaz\Lote;
-use Sped\Gnre\Render\Barcode128;
-use Sped\Gnre\Render\SmartyFactory;
+use TuimSped\Gnre\Sefaz\Lote;
+use TuimSped\Gnre\Render\Barcode128;
+use TuimSped\Gnre\Render\SmartyFactory;
 
 /**
  * Classe que contém a estrutura para gerar o pdf da guia de pagamento.
@@ -83,7 +83,7 @@ class Html
 
     /**
      * Retorna uma factory para ser possível utilizar o Smarty
-     * @return Sped\Gnre\Render\SmartyFactory
+     * @return TuimSped\Gnre\Render\SmartyFactory
      */
     public function getSmartyFactory()
     {

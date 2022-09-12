@@ -1,9 +1,9 @@
 <?php
 
-namespace Sped\Gnre\Test\Render;
+namespace TuimSped\Gnre\Test\Render;
 
 use PHPUnit\Framework\TestCase;
-use Sped\Gnre\Render\Html;
+use TuimSped\Gnre\Render\Html;
 
 /**
  * @covers \Sped\Gnre\Render\Html

@@ -15,9 +15,9 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Sefaz\Estados;
+namespace TuimSped\Gnre\Sefaz\Estados;
 
-use Sped\Gnre\Sefaz\Guia;
+use TuimSped\Gnre\Sefaz\Guia;
 
 abstract class Padrao
 {

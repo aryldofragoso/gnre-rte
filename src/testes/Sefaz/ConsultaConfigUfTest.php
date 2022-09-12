@@ -1,12 +1,12 @@
 <?php
 
-namespace Sped\Gnre\Test\Sefaz;
+namespace TuimSped\Gnre\Test\Sefaz;
 
 use PHPUnit\Framework\TestCase;
-use Sped\Gnre\Sefaz\boolen;
+use TuimSped\Gnre\Sefaz\boolen;
 
 /**
- * @covers Sped\Gnre\Sefaz\ConsultaConfigUf
+ * @covers TuimSped\Gnre\Sefaz\ConsultaConfigUf
  */
 class ConsultaConfigUfTest extends TestCase
 {

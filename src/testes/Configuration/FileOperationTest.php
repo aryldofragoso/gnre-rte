@@ -15,20 +15,20 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Test\Configuration;
+namespace TuimSped\Gnre\Test\Configuration;
 
 use PHPUnit\Framework\TestCase;
-use Sped\Gnre\Configuration\FileOperation;
+use TuimSped\Gnre\Configuration\FileOperation;
 
 /**
- * @covers Sped\Gnre\Configuration\FileOperation
- * @covers Sped\Gnre\Exception\UnreachableFile
+ * @covers TuimSped\Gnre\Configuration\FileOperation
+ * @covers TuimSped\Gnre\Exception\UnreachableFile
  */
 class FileOperationTest extends TestCase
 {
 
     /**
-     * @expectedException Sped\Gnre\Exception\UnreachableFile
+     * @expectedException TuimSped\Gnre\Exception\UnreachableFile
      */
     public function testArquivoInformadoNaoExiste()
     {

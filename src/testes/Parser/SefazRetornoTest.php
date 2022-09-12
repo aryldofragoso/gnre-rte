@@ -1,6 +1,6 @@
 <?php
 
-namespace Sped\Gnre\Test\Parser;
+namespace TuimSped\Gnre\Test\Parser;
 
 /**
  * @cover \Sped\Gnre\Parser\SefazRetorno

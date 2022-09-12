@@ -15,11 +15,11 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Configuration;
+namespace TuimSped\Gnre\Configuration;
 
-use Sped\Gnre\Configuration\FileOperation;
-use Sped\Gnre\Exception\CannotOpenCertificate;
-use Sped\Gnre\Exception\UnableToWriteFile;
+use TuimSped\Gnre\Configuration\FileOperation;
+use TuimSped\Gnre\Exception\CannotOpenCertificate;
+use TuimSped\Gnre\Exception\UnableToWriteFile;
 
 /**
  * Classe responsável por escrever novos arquivos com os dados extraidos do certificado e manipular

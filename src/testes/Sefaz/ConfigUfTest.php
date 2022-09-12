@@ -1,11 +1,11 @@
 <?php
 
-namespace Sped\Gnre\Test\Sefaz;
+namespace TuimSped\Gnre\Test\Sefaz;
 
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers Sped\Gnre\Sefaz\ConfigUf
+ * @covers TuimSped\Gnre\Sefaz\ConfigUf
  */
 class ConfigUfTest extends TestCase
 {

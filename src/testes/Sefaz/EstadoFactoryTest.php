@@ -1,12 +1,12 @@
 <?php
 
-namespace Sped\Gnre\Test\Sefaz;
+namespace TuimSped\Gnre\Test\Sefaz;
 
 use PHPUnit\Framework\TestCase;
-use Sped\Gnre\Sefaz\EstadoFactory;
+use TuimSped\Gnre\Sefaz\EstadoFactory;
 
 /**
- * @covers Sped\Gnre\Sefaz\EstadoFactory
+ * @covers TuimSped\Gnre\Sefaz\EstadoFactory
  */
 class EstadoFactoryTest extends TestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Sped\Gnre\Test\Sefaz;
+namespace TuimSped\Gnre\Test\Sefaz;
 
-use Sped\Gnre\Sefaz\ConsultaConfigUf;
+use TuimSped\Gnre\Sefaz\ConsultaConfigUf;
 
 class MinhaConsultaConfigUf extends ConsultaConfigUf
 {

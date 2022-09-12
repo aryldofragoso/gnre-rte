@@ -1,12 +1,12 @@
 <?php
 
-namespace Sped\Gnre\Test\Sefaz;
+namespace TuimSped\Gnre\Test\Sefaz;
 
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers Sped\Gnre\Sefaz\Guia
- * @covers Sped\Gnre\Exception\UndefinedProperty
+ * @covers TuimSped\Gnre\Sefaz\Guia
+ * @covers TuimSped\Gnre\Exception\UndefinedProperty
  */
 class GuiaTest extends TestCase
 {
@@ -20,7 +20,7 @@ class GuiaTest extends TestCase
     }
 
     /**
-     * @expectedException Sped\Gnre\Exception\UndefinedProperty
+     * @expectedException TuimSped\Gnre\Exception\UndefinedProperty
      * @expectedExceptionMessage Não foi possível encontrar o atributo desejado na classe
      * @expectedExceptionCode 100
      */

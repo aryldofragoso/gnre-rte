@@ -1,6 +1,6 @@
 <?php
 
-namespace Sped\Gnre\Test\Render;
+namespace TuimSped\Gnre\Test\Render;
 
 use PHPUnit\Framework\TestCase;
 

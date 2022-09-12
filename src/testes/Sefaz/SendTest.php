@@ -1,13 +1,13 @@
 <?php
 
-namespace Sped\Gnre\Test\Sefaz;
+namespace TuimSped\Gnre\Test\Sefaz;
 
 use PHPUnit\Framework\TestCase;
-use Sped\Gnre\Sefaz\Send;
+use TuimSped\Gnre\Sefaz\Send;
 
 /**
- * @covers Sped\Gnre\Sefaz\Send
- * @covers Sped\Gnre\Exception\ConnectionFactoryUnavailable
+ * @covers TuimSped\Gnre\Sefaz\Send
+ * @covers TuimSped\Gnre\Exception\ConnectionFactoryUnavailable
  */
 class SendTest extends TestCase
 {

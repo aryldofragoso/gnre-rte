@@ -1,8 +1,8 @@
 <?php
 
-namespace Sped\Gnre\Test\Sefaz;
+namespace TuimSped\Gnre\Test\Sefaz;
 
-use Sped\Gnre\Sefaz\ConsultaGnre;
+use TuimSped\Gnre\Sefaz\ConsultaGnre;
 
 class MinhaConsultaGnre extends ConsultaGnre
 {

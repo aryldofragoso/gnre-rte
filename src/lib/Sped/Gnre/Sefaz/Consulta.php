@@ -15,9 +15,9 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Sefaz;
+namespace TuimSped\Gnre\Sefaz;
 
-use Sped\Gnre\Sefaz\ConsultaGnre;
+use TuimSped\Gnre\Sefaz\ConsultaGnre;
 
 /**
  * Classe utilzada para gerar o envelope SOAP para ser enviado ao web service

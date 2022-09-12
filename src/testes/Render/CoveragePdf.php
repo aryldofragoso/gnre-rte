@@ -1,6 +1,6 @@
 <?php
 
-namespace Sped\Gnre\Test\Render;
+namespace TuimSped\Gnre\Test\Render;
 
 class CoveragePdf extends \Sped\Gnre\Render\Pdf
 {

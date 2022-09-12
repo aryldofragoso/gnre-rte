@@ -15,9 +15,9 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Webservice;
+namespace TuimSped\Gnre\Webservice;
 
-use Sped\Gnre\Configuration\Setup;
+use TuimSped\Gnre\Configuration\Setup;
 
 /**
  * Factory utilizada para criar um objeto <b>\Sped\Gnre\Webservice\Connection</b>

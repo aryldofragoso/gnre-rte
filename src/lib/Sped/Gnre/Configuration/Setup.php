@@ -15,7 +15,7 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Configuration;
+namespace TuimSped\Gnre\Configuration;
 
 /**
  * Classe abstrata para controlar as propriedades/métodos de uma classe que será

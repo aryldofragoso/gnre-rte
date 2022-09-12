@@ -15,9 +15,9 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Configuration;
+namespace TuimSped\Gnre\Configuration;
 
-use Sped\Gnre\Exception\UnreachableFile;
+use TuimSped\Gnre\Exception\UnreachableFile;
 
 /**
  * Classe abstrata que contém os métodos necessários para realizar ações em um arquivo

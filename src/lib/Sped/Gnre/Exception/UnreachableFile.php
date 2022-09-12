@@ -15,7 +15,7 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Exception;
+namespace TuimSped\Gnre\Exception;
 
 /**
  * Lança uma exceção caso o arquivo desejado não exista

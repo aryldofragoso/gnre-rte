@@ -15,10 +15,10 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace Sped\Gnre\Sefaz;
+namespace TuimSped\Gnre\Sefaz;
 
-use Sped\Gnre\Sefaz\Guia;
-use Sped\Gnre\Sefaz\ObjetoSefaz;
+use TuimSped\Gnre\Sefaz\Guia;
+use TuimSped\Gnre\Sefaz\ObjetoSefaz;
 
 /**
  * Classe que contém os métodos necessários para armazenar as guias em lotes
