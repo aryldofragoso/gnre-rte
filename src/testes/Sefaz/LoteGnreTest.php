@@ -15,12 +15,12 @@
 * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 */
 
-namespace TuimSped\Gnre\Test\Sefaz;
+namespace TurimSped\Gnre\Test\Sefaz;
 
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers TuimSped\Gnre\Sefaz\LoteGnre
+ * @covers TurimSped\Gnre\Sefaz\LoteGnre
  */
 class LoteGnreTest extends TestCase
 {

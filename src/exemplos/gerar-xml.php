@@ -4,7 +4,7 @@ require '../vendor/autoload.php';
 
 use Dompdf\Dompdf;
 
-$guia = new TuimSped\Gnre\Sefaz\Guia();
+$guia = new TurimSped\Gnre\Sefaz\Guia();
 $guia->c01_UfFavorecida = 'SP';
 $guia->c02_receita = 1000099;
 $guia->c25_detalhamentoReceita = 10101010;
@@ -58,7 +58,7 @@ $guia->c39_camposExtras = array(
     ),
 );
 
-$lote = new TuimSped\Gnre\Sefaz\Lote();
+$lote = new TurimSped\Gnre\Sefaz\Lote();
 $lote->addGuia($guia);
 
 header('Content-Type: text/xml');

@@ -1,6 +1,6 @@
 <?php
 
-namespace TuimSped\Gnre\Sefaz\Estados;
+namespace TurimSped\Gnre\Sefaz\Estados;
 
 class AL extends Padrao
 {

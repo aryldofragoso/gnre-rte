@@ -15,9 +15,9 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace TuimSped\Gnre\Configuration;
+namespace TurimSped\Gnre\Configuration;
 
-use TuimSped\Gnre\Configuration\CertificatePfxFileOperation;
+use TurimSped\Gnre\Configuration\CertificatePfxFileOperation;
 
 /**
  * Classe responsável por extrair os dados de um certificado baseado
@@ -60,7 +60,7 @@ class CertificatePfx
      * Cria um arquivo na pasta definida nas configurações padrões (/certs/metadata) com a
      * chave privada do certificado. Para salvar o novo arquivo é utilizado
      * o mesmo nome do certificado e com prefixo definido no método
-     * @throws TuimSped\Gnre\Exception\UnableToWriteFile Se a pasta de destino não tiver permissão para escrita
+     * @throws TurimSped\Gnre\Exception\UnableToWriteFile Se a pasta de destino não tiver permissão para escrita
      * @return string  Retorna uma string com o caminho e o nome do arquivo que foi criado
      * @since  1.0.0
      */
@@ -75,7 +75,7 @@ class CertificatePfx
      * Cria um arquivo na pasta definida nas configurações padrões (/certs/metadata) com a
      * chave privada do certificado. Para salvar o novo arquivo é utilizado
      * o mesmo nome do certificado e com prefixo definido no método
-     * @throws TuimSped\Gnre\Exception\UnableToWriteFile Se a pasta de destino não tiver permissão para escrita
+     * @throws TurimSped\Gnre\Exception\UnableToWriteFile Se a pasta de destino não tiver permissão para escrita
      * @return string Retorna uma string com o caminho e o nome do arquivo que foi criado
      * @since  1.0.0
      */

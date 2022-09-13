@@ -15,10 +15,10 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace TuimSped\Gnre\Render;
+namespace TurimSped\Gnre\Render;
 
 use Dompdf\Dompdf;
-use TuimSped\Gnre\Render\Html;
+use TurimSped\Gnre\Render\Html;
 
 /**
  * Classe que contém a estrutura para gerar o pdf da guia de pagamento.

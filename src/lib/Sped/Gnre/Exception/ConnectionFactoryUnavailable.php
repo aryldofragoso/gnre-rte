@@ -15,7 +15,7 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace TuimSped\Gnre\Exception;
+namespace TurimSped\Gnre\Exception;
 
 /**
  * Exceção utilizada caso não for possível utilizar um objeto do tipo
@@ -35,6 +35,6 @@ class ConnectionFactoryUnavailable extends \Exception
      */
     public function __construct()
     {
-        parent::__construct('Unable to use a valid TuimSped\Gnre\Webservice\ConnectionFactory', null, null);
+        parent::__construct('Unable to use a valid TurimSped\Gnre\Webservice\ConnectionFactory', null, null);
     }
 }

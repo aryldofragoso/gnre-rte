@@ -4,7 +4,7 @@ namespace Exemplo;
 
 require '../vendor/autoload.php';
 
-class MySetup extends TuimSped\Gnre\Configuration\Setup
+class MySetup extends TurimSped\Gnre\Configuration\Setup
 {
 
     public function getBaseUrl()
@@ -58,9 +58,9 @@ class MySetup extends TuimSped\Gnre\Configuration\Setup
 
 $minhaConfiguracao = new MySetup();
 
-$guia = new TuimSped\Gnre\Sefaz\Guia();
+$guia = new TurimSped\Gnre\Sefaz\Guia();
 
-$consulta = new TuimSped\Gnre\Sefaz\Consulta();
+$consulta = new TurimSped\Gnre\Sefaz\Consulta();
 $consulta->setRecibo(12345123);
 
 /**
@@ -73,5 +73,5 @@ $consulta->setEnvironment(1);
 //header('Content-Type: text/xml');
 //print $consulta->toXml(); // exibe o XML da consulta
 
-$webService = new TuimSped\Gnre\Webservice\Connection($minhaConfiguracao, $consulta->getHeaderSoap(), $consulta->toXml());
+$webService = new TurimSped\Gnre\Webservice\Connection($minhaConfiguracao, $consulta->getHeaderSoap(), $consulta->toXml());
 echo $webService->doRequest($consulta->soapAction());

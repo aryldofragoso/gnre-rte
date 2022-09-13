@@ -1,9 +1,9 @@
 <?php
 
-namespace TuimSped\Gnre\Test\Sefaz;
+namespace TurimSped\Gnre\Test\Sefaz;
 
 use PHPUnit\Framework\TestCase;
-use TuimSped\Gnre\Webservice\ConnectionFactory;
+use TurimSped\Gnre\Webservice\ConnectionFactory;
 
 /**
  * @covers \Sped\Gnre\Webservice\ConnectionFactory

@@ -15,9 +15,9 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace TuimSped\Gnre\Parser;
+namespace TurimSped\Gnre\Parser;
 
-use TuimSped\Gnre\Parser\Rules;
+use TurimSped\Gnre\Parser\Rules;
 
 /**
  * <p>
@@ -30,7 +30,7 @@ use TuimSped\Gnre\Parser\Rules;
  * @subpackage  parser
  * @author      Matheus Marabesi <matheus.marabesi@gmail.com>
  * @license     http://www.gnu.org/licenses/gpl-howto.html GPL
- * @see         TuimSped\Gnre\Parser\Rules
+ * @see         TurimSped\Gnre\Parser\Rules
  * @version     1.0.0
  */
 class SefazRetorno extends Rules

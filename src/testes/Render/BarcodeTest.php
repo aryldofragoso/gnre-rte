@@ -1,6 +1,6 @@
 <?php
 
-namespace TuimSped\Gnre\Test\Render;
+namespace TurimSped\Gnre\Test\Render;
 
 use PHPUnit\Framework\TestCase;
 

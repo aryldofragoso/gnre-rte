@@ -4,7 +4,7 @@ namespace Exemplo;
 
 require '../vendor/autoload.php';
 
-class MySetup extends TuimSped\Gnre\Configuration\Setup
+class MySetup extends TurimSped\Gnre\Configuration\Setup
 {
 
     public function getBaseUrl()
@@ -67,7 +67,7 @@ $config->setEnvironment(1);
 $config->setReceita(100099);
 $config->setEstado('PR');
 
-$webService = new TuimSped\Gnre\Webservice\Connection($minhaConfiguracao, $config->getHeaderSoap(), $config->toXml());
+$webService = new TurimSped\Gnre\Webservice\Connection($minhaConfiguracao, $config->getHeaderSoap(), $config->toXml());
 
 $consulta = $webService->doRequest($config->soapAction());
 echo '<pre>';

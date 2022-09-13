@@ -15,7 +15,7 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace TuimSped\Gnre\Parser;
+namespace TurimSped\Gnre\Parser;
 
 /**
  * Classe abstrata que utiliza o padrão de projeto Template Method para

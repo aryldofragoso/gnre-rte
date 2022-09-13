@@ -1,11 +1,11 @@
 <?php
 
-namespace TuimSped\Gnre\Test\Sefaz;
+namespace TurimSped\Gnre\Test\Sefaz;
 
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers TuimSped\Gnre\Sefaz\Consulta
+ * @covers TurimSped\Gnre\Sefaz\Consulta
  */
 class ConsultaTest extends TestCase
 {

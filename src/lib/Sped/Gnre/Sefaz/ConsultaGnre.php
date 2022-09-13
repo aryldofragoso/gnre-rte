@@ -15,9 +15,9 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace TuimSped\Gnre\Sefaz;
+namespace TurimSped\Gnre\Sefaz;
 
-use TuimSped\Gnre\Sefaz\ObjetoSefaz;
+use TurimSped\Gnre\Sefaz\ObjetoSefaz;
 
 /**
  * Classe que possui os métodos fundamentais para se realizar uma consulta

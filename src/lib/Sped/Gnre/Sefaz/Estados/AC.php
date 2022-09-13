@@ -1,8 +1,8 @@
 <?php
 
-namespace TuimSped\Gnre\Sefaz\Estados;
+namespace TurimSped\Gnre\Sefaz\Estados;
 
-use TuimSped\Gnre\Sefaz\Guia;
+use TurimSped\Gnre\Sefaz\Guia;
 
 class AC extends Padrao
 {

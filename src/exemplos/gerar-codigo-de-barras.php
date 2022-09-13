@@ -19,7 +19,7 @@ $contents = ob_get_contents();
 ob_end_clean();
 
 
-$barcodeGnre = new TuimSped\Gnre\Render\Barcode128();
+$barcodeGnre = new TurimSped\Gnre\Render\Barcode128();
 $barcodeGnre->setNumeroCodigoBarras('91910919190191091090109109190109');
 
 ?>

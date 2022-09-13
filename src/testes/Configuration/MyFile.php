@@ -1,8 +1,8 @@
 <?php
 
-namespace TuimSped\Gnre\Test\Configuration;
+namespace TurimSped\Gnre\Test\Configuration;
 
-use TuimSped\Gnre\Configuration\FileOperation;
+use TurimSped\Gnre\Configuration\FileOperation;
 
 class MyFile extends FileOperation
 {

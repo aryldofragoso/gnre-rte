@@ -15,9 +15,9 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace TuimSped\Gnre\Webservice;
+namespace TurimSped\Gnre\Webservice;
 
-use TuimSped\Gnre\Configuration\Setup;
+use TurimSped\Gnre\Configuration\Setup;
 
 /**
  * Classe que realiza a conexão com o webservice da SEFAZ com a

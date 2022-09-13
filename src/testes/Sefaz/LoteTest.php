@@ -1,13 +1,13 @@
 <?php
 
-namespace TuimSped\Gnre\Test\Sefaz;
+namespace TurimSped\Gnre\Test\Sefaz;
 
 use PHPUnit\Framework\TestCase;
-use TuimSped\Gnre\Sefaz\Lote;
-use TuimSped\Gnre\Sefaz\Guia;
+use TurimSped\Gnre\Sefaz\Lote;
+use TurimSped\Gnre\Sefaz\Guia;
 
 /**
- * @covers TuimSped\Gnre\Sefaz\Lote
+ * @covers TurimSped\Gnre\Sefaz\Lote
  */
 class LoteTest extends TestCase
 {

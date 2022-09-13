@@ -15,7 +15,7 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace TuimSped\Gnre\Render;
+namespace TurimSped\Gnre\Render;
 
 /**
  * Classe utilizada para gerar o código de barras no formato 128.

@@ -4,7 +4,7 @@ namespace Exemplo;
 
 require '../vendor/autoload.php';
 
-class MySetup extends TuimSped\Gnre\Configuration\Setup
+class MySetup extends TurimSped\Gnre\Configuration\Setup
 {
 
     public function getBaseUrl()
@@ -66,12 +66,12 @@ $xml = file_get_contents('estrutura-lote-completo-gnre.xml');
 
 $minhaConfiguracao = new MySetup();
 
-$guia = new TuimSped\Gnre\Sefaz\Guia();
+$guia = new TurimSped\Gnre\Sefaz\Guia();
 
-$lote = new TuimSped\Gnre\Sefaz\Lote();
+$lote = new TurimSped\Gnre\Sefaz\Lote();
 // $lote->utilizarAmbienteDeTeste(true); Descomente essa linha para utilizar o ambiente de testes
 
 $lote->addGuia($guia);
 
-$webService = new TuimSped\Gnre\Webservice\Connection($minhaConfiguracao, $lote->getHeaderSoap(), $lote->toXml());
+$webService = new TurimSped\Gnre\Webservice\Connection($minhaConfiguracao, $lote->getHeaderSoap(), $lote->toXml());
 echo $webService->doRequest($lote->soapAction());

@@ -15,10 +15,10 @@
  * Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-namespace TuimSped\Gnre\Test\Render;
+namespace TurimSped\Gnre\Test\Render;
 
 use PHPUnit\Framework\TestCase;
-use TuimSped\Gnre\Render\SmartyFactory;
+use TurimSped\Gnre\Render\SmartyFactory;
 
 class SmartyFactoryTest extends TestCase
 {
