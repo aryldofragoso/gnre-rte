@@ -22,8 +22,8 @@
     },
     "autoload": {
         "psr-4": {
-            "src\\": "lib/Sped/Gnre/",
-            "src\\Test\\": "testes/"
+            "TurimSped\\Gnre\\": "lib/Sped/Gnre/",
+            "TurimSped\\Gnre\\Test\\": "testes/"
         }
     },
     "minimum-stability": "dev",
