@@ -23,8 +23,8 @@
     },
     "autoload": {
         "psr-4": {
-            "TurimSped\\Gnre\\": "lib/TurimSped/Gnre/",
-            "TurimSped\\Gnre\\Test\\": "testes/"
+            "TurimSped\\Gnre\\": "src/lib/TurimSped/Gnre/",
+            "TurimSped\\Gnre\\Test\\": "src/testes/"
         }
     },
     "minimum-stability": "dev",
