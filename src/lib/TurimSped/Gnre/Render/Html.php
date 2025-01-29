@@ -102,13 +102,15 @@ class Html
      * utilizado por esse método</p>
      * @since 1.0.0
      */
-    public function create(Lote $lote)
+    public function create(Lote $lote, $guiaViaInfo = null)
     {
-        $guiaViaInfo = array(
-            1 => '1ª via Banco',
-            2 => '2ª via Contrinuinte',
-            3 => '3ª via Contribuinte/Fisco'
-        );
+        if($guiaViaInfo == null){
+            $guiaViaInfo = array(
+                1 => '1ª via Banco',
+                2 => '2ª via Contrinuinte',
+                3 => '3ª via Contribuinte/Fisco'
+            );
+        }
 
         $guias = $lote->getGuias();
         $html = '';
